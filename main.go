@@ -726,7 +726,6 @@ For interacting with this daemon use,
 		RepMan = new(server.ReplicationManager)
 		RepMan.InitConfig(conf)
 		RepMan.Run()
-
 	},
 	PostRun: func(cmd *cobra.Command, args []string) {
 		// Close connections on exit.
